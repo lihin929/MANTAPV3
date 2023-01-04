@@ -14,3 +14,6 @@ sleep 1
 wget https://raw.githubusercontent.com/fisabiliyusri/MANTAPV3/main/websocket/ws-only.sh && chmod +x ws-only.sh && ./ws-only.sh
 sleep 1
 
+## install xray ##
+wget https://github.com/lihin929/MANTAPV3/blob/main/xray/11ins-xray.sh
+sleep 1
