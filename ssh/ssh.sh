@@ -37,24 +37,7 @@ email=hayuk69@gmail.com
 wget -O /etc/pam.d/common-password "https://${akbarvpn}/password"
 chmod +x /etc/pam.d/common-password
 
-# Edit file /etc/systemd/system/rc-local.service
-cat > /etc/systemd/system/rc-local.service <<-END
-[Unit]
-Description=/etc/rc.local
-ConditionPathExists=/etc/rc.local
 
-[Service]
-Type=forking
-ExecStart=/etc/rc.local start
-TimeoutSec=0
-StandardOutput=tty
-RemainAfterExit=yes
-SysVStartPriority=99
-
-[Install]
-WantedBy=multi-user.target
-
-END
 
 # nano /etc/rc.local
 cat > /etc/rc.local <<-END
