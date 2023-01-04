@@ -17,3 +17,18 @@ sleep 1
 ## install xray ##
 wget https://github.com/lihin929/MANTAPV3/blob/main/xray/11ins-xray.sh
 sleep 1
+
+## install nginx ##
+wget https://github.com/lihin929/MANTAPV3/blob/main/nginx/nginx.sh
+sleep 1
+
+## install ssh ##
+wget https://github.com/lihin929/MANTAPV3/blob/main/ssh/ssh.sh
+sleep 1
+
+## install slowdns ##
+wget https://github.com/lihin929/MANTAPV3/blob/main/slowdns/slowdns.sh
+sleep 1
+
+## install alat ##
+wget https://github.com/lihin929/MANTAPV3/blob/main/alat/alat.sh
